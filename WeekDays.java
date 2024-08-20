@@ -1,4 +1,4 @@
-# switch case find weekdays
+// switch case find weekdays
 import java.util.Scanner;
 public class WeekDays{
     public static void main(String [] args){
