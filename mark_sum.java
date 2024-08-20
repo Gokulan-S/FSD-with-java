@@ -1,5 +1,5 @@
 import java.util.*;
-public class first{
+public class Mark_sum{
     public static void main(String [] args){
         Scanner s=new Scanner(System.in);
         System.out.println("Enter your name: ");
