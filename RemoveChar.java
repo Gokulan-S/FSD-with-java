@@ -7,10 +7,10 @@ public class RemoveChar {
 		char ch[]=new char[a.length()];
 		ch=a.toCharArray();
 		for(int i=0;i<ch.length;i++) {
-			if(ch[i]==b) {
-				continue;
+			if(ch[i]!=b) {
+				System.out.print(ch[i]);
+				
 			}
-			System.out.print(ch[i]);
 		}
 	}
 }
