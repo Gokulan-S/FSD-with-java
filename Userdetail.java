@@ -43,7 +43,6 @@ public class Userdetail {
 		
 		System.out.println("enter age");
 		ob.age=s.nextInt();
-		s.close();
 		ob.display();
 		
 	}
