@@ -43,10 +43,15 @@ public class StackUsingArray{
                     break;
                 case 4:
                     System.out.println("Display");
-                    for(int i=top;i>=0;i--){
-                        System.out.print(stack[i]+" ");
+                    if(top==-1){
+                        System.out.println("stack underflow");
                     }
-                    System.out.println();
+                    else{
+                        for(int i=top;i>=0;i--){
+                            System.out.print(stack[i]+" ");
+                        }
+                        System.out.println();
+                    }
                     break;
                 case 5:
                     check=false;
