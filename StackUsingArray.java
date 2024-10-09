@@ -43,7 +43,7 @@ public class StackUsingArray{
                     break;
                 case 4:
                     System.out.println("Display");
-                    for(int i=0;i<n;i++){
+                    for(int i=top;i>=0;i--){
                         System.out.print(stack[i]+" ");
                     }
                     System.out.println();
